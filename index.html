@@ -8,30 +8,39 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4c716146a.js" crossorigin="anonymous"></script>
     <title>Encriptador de Texto</title>
 </head>
 <body>
     <main class="contenedor__principal">
         <nav class="menu">
-            <img src="img/logo.png" alt="home" class="menu__imagen">
+            <a href="#">
+                <img src="img/logo.png" alt="home" class="menu__imagen">
+            </a>
         </nav>
         <section class="acodificar">
-            <textarea class="acodificar__text" name="acodificar-text" id="acodificar-text" cols="30" rows="10"></textarea>
+            <textarea class="acodificar__text" name="acodificar-text" id="acodificar-text" ></textarea>
             <span class="acodificar__advertencia">
-                <img src="" alt="advertencia__imagen">Asegúrese de ingresar solo texto sin acentos
+                <img class="advertencia__imagen" src="img/alert.png" alt="advertencia">Asegúrese de ingresar texto sin acentos
             </span>
             <div class="acodificar__botones">
-                <button class="acodificar__btn__encriptar">Encriptar</button>
-                <button class="acodificar__btn__desencriptar">Desencriptar</button>
+                <button class="boton__general btn__encriptar">Encriptar</button>
+                <button class="boton__general btn__desencriptar">Desencriptar</button>
             </div>
         </section>
         <section class="codificado">
             <textarea class="codificado__text" name="codificado-text" id="codificado-text" cols="30" rows="10"></textarea>
-                <button class="codificado__btn__Copiar">Copiar</button>
+                <button class="boton__general btn__Copiar">Copiar</button>
             </div>
         </section>
-        <footer class="footer"></footer>
     </main>
+    <footer class="footer">
+        <div class="footer-redes">
+            <a href="#" class="footer-red-icon"><i class="fa-brands fa-linkedin fa-xl fa-inverse"> </i></a>   
+            <a href="#" class="footer-red-icon"><i class="fa-brands fa-github fa-xl fa-inverse"> </i></a>
+        </div>
+        <p>&copy; Desarrollado por Yohan Estevez - 2022</p>
+    </footer>
 </body>
 </html>
