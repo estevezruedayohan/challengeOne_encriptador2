@@ -1,0 +1,13 @@
+.btn__encriptar{
+    background-color: var(--darkblue);
+    color: var(--lighblue);
+    margin-right: 4px;
+    width: 50%;
+}
+
+.btn__desencriptar{
+    background-color: var(--white);
+    color: var(--darkblue);
+    margin-left: 4px;
+    width: 50%;
+}

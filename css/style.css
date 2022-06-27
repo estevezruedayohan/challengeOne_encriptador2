@@ -30,89 +30,12 @@ body{
     width: 15%;
 }
 
-.acodificar{
-    display: flex;
-    flex-direction: column;
-    margin: 7rem 5rem 0 0;
-    padding: 8px;
-    width: 50%;
-}
-
-
-.acodificar__text{
-    border: none;
-    color: var(--darkblue);
-    font-family: var(--font-contenido);
-    font-size: var(--xlg);
-    font-weight: 600;
-    height: 45%;
-    padding: 12px;
-    width: calc(100% - 20px);
-}
-
-.acodificar__advertencia{
-    margin: auto auto 8px 0;
-}
-
-.advertencia__imagen{
-    font-weight: bold;
-    margin-right: 4px;
-    width: 16px;
-}
-
-.acodificar__botones{
-    margin: 8px auto 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100%;
-}
-
 .boton__general {
     border-radius: 8px;
     font-family: var(--font-contenido);
     font-size: var(--md);
     padding: 16px;
 } 
-
-.btn__encriptar{
-    background-color: var(--darkblue);
-    color: var(--lighblue);
-    margin-right: 4px;
-    width: 50%;
-}
-
-.btn__desencriptar{
-    background-color: var(--white);
-    color: var(--darkblue);
-    margin-left: 4px;
-    width: 50%;
-}
-
-.codificado{
-    background: var(--white);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 2.5rem;
-    padding: 16px;
-    width: 35%;
-}
-
-.codificado__text{
-    width: calc(100% - 16px);
-    height: 50%;
-    border: none;
-    font-family: var(--font-contenido);
-    font-size: var(--md);
-    padding: 8px;
-}
-
-.btn__Copiar{
-    background-color: var(--white);
-    color: var(--darkblue);
-    margin: auto 0 0 0;
-}
 
 .footer{
     background: var(--darkblue);
@@ -124,10 +47,3 @@ body{
     width: 70%;
 }
 
-.footer-redes{
-    margin-bottom: 4px;
-}
-
-.fa-brands{
-    margin-right: 8px;
-}

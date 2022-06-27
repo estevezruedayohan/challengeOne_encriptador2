@@ -1,0 +1,10 @@
+.acodificar__text{
+    border: none;
+    color: var(--darkblue);
+    font-family: var(--font-contenido);
+    font-size: var(--xlg);
+    font-weight: 600;
+    height: 45%;
+    padding: 12px;
+    width: calc(100% - 20px);
+}

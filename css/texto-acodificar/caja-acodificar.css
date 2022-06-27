@@ -1,0 +1,7 @@
+.acodificar{
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 5rem 0 0;
+    padding: 8px;
+    width: 50%;
+}

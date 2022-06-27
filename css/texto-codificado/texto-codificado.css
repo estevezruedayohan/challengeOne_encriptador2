@@ -1,0 +1,9 @@
+
+.codificado__text{
+    width: calc(100% - 16px);
+    height: 50%;
+    border: none;
+    font-family: var(--font-contenido);
+    font-size: var(--md);
+    padding: 8px;
+}
