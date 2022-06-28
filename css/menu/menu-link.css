@@ -1,0 +1,20 @@
+.menu__imagen{
+    margin-left: 0;
+    
+}
+
+.menu__link{
+    height: 36px;
+}
+
+@media screen and (max-width: 480px) {
+    .menu__imagen{
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1024px) {
+    .menu__imagen{
+        width: 130px;
+    }
+}

@@ -9,5 +9,13 @@
 @media screen and (max-width: 480px){
     .footer-redes{
         margin: 8px auto;
+        padding: 8px 0 0;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 1024px){
+    .footer-redes{
+        margin: 8px auto;
+        padding: 8px 0 0;
     }
 }

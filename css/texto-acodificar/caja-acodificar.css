@@ -14,3 +14,11 @@
         height: calc(50% - 16px);
     }
 }
+
+@media screen and (min-width:540px) and (max-width: 1024px){
+    .acodificar{
+        margin: 0 auto;
+        width: 80%;
+        height: calc(45% - 16px);
+    }
+}
