@@ -1,4 +1,5 @@
 .acodificar__text{
+    background: var(--lighblue);
     border: none;
     color: var(--darkblue);
     font-family: var(--font-contenido);
