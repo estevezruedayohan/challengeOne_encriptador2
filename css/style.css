@@ -47,3 +47,34 @@ body{
     width: 70%;
 }
 
+@media screen and (max-width:480px) {
+    body{
+        height: calc(100vh - 16px);
+    }
+    .contenedor__principal{
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        margin: 0;
+        padding: 4px;
+        width: calc(100% - 8px) ;
+    }
+    .menu{
+        height: 10%;
+    }
+    .menu__imagen{
+        transform: scale(0.5);
+    }
+    .boton__general{
+        font-size: var(--md);
+        padding: 8px;
+    }
+
+    .footer{
+        height: calc(10% - 8px);
+        margin: 0;
+        padding: 4px;
+        width: calc(100% - 8px);
+    }
+
+}

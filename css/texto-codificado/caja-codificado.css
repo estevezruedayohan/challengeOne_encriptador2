@@ -7,3 +7,12 @@
     padding: 16px;
     width: 35%;
 }
+
+@media screen and (max-width:480px) {
+    .codificado{
+        height: calc(40% - 32px);
+        margin: 8px;
+        padding: 8px;
+        width: calc(100% - 32px);
+    }
+}

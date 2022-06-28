@@ -5,3 +5,9 @@
     justify-content:space-around;
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    .acodificar__botones{
+        margin: 12px auto 0;
+    }
+}

@@ -9,3 +9,10 @@
     width: calc(100% - 20px);
     resize: none;
 }
+
+@media screen and (max-width:480px){
+    .acodificar__text{
+        height: 240px;
+        font-size: var(--md);
+    }
+}

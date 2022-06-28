@@ -8,3 +8,11 @@
     padding: 8px;
     resize: none;
 }
+
+@media screen and (max-width:480px) {
+    .codificado__text{
+        height: 220px;
+        padding: 8px;
+        width: calc(100% - 16px);
+    }
+}

@@ -5,3 +5,9 @@
 .fa-brands{
     margin-right: 8px;
 }
+
+@media screen and (max-width: 480px){
+    .footer-redes{
+        margin: 8px auto;
+    }
+}

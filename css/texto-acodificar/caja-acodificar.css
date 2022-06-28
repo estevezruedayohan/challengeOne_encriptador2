@@ -5,3 +5,12 @@
     padding: 8px;
     width: 50%;
 }
+
+@media screen and (max-width:480px){
+    .acodificar{
+        margin: 0;
+        padding: 8px;
+        width: calc(100% - 16px);
+        height: calc(50% - 16px);
+    }
+}
