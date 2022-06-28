@@ -20,6 +20,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a4c716146a.js" crossorigin="anonymous"></script>
+    <!-- JavaScript  Aleryfyjs-->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
     <title>Encriptador de Texto</title>
 </head>
 <body>
@@ -30,9 +38,12 @@
             </a>
         </nav>
         <section class="acodificar">
-            <textarea class="acodificar__text" name="acodificar-text" id="acodificar-text" ></textarea>
+            <textarea class="acodificar__text" name="acodificar-text" id="acodificar-text" placeholder="Ingrese algún texto ..."></textarea>
             <span class="acodificar__advertencia">
-                <i class="fa-solid fa-triangle-exclamation"></i> Asegúrese de ingresar texto sin acentos 
+                <i class="fa-solid fa-triangle-exclamation"></i> Los acentos se eliminarán. 
+            </span>
+            <span class="acodificar__advertencia">
+                <i class="fa-solid fa-triangle-exclamation"></i> El texto encriptado se expresará en minúscula. 
             </span>
             <div class="acodificar__botones">
                 <button class="boton__general btn__encriptar">Encriptar</button>
@@ -40,8 +51,8 @@
             </div>
         </section>
         <section class="codificado">
-            <textarea class="codificado__text" name="codificado-text" id="codificado-text" cols="30" rows="10"></textarea>
-                <button class="boton__general btn__Copiar">Copiar</button>
+            <textarea class="codificado__text" name="codificado-text" id="codificado-text" cols="30" rows="10" readonly></textarea>
+            <button class="boton__general btn__Copiar">Copiar</button>
             </div>
         </section>
     </main>
@@ -52,5 +63,11 @@
         </div>
         <p>&copy; Desarrollado por Yohan Estevez - 2022</p>
     </footer>
+    <script src="js/script.js"></script>
+    <script src="js/desencriptar-Texto.js"></script>
+    <script src="js/encriptar-Texto.js"></script>
+    <script src="js/normalizar-Texto.js"></script>
+    <script src="js/verificar-Cadena.js"></script>
+    
 </body>
 </html>
