@@ -5,9 +5,18 @@
     width: 50%;
 }
 
+.btn__encriptar:hover{
+    background-color: var(--lighgray);
+}
+
 .btn__desencriptar{
     background-color: var(--white);
     color: var(--darkblue);
     margin-left: 4px;
     width: 50%;
+}
+
+.btn__desencriptar:hover{
+    background-color: var(--lighgray);
+    color: var(--white);
 }

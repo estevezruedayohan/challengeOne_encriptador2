@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/texto-acodificar/caja-acodificar.css">
     <link rel="stylesheet" href="css/texto-acodificar/caja-botones-acodificar.css">
     <link rel="stylesheet" href="css/texto-acodificar/texto-acodificar.css">
-
+    <link rel="stylesheet" href="css/texto-codificado/msg-copiado.css">
     <link rel="stylesheet" href="css/texto-codificado/botones-codificado.css">
     <link rel="stylesheet" href="css/texto-codificado/caja-codificado.css">
     <link rel="stylesheet" href="css/texto-codificado/texto-codificado.css">
@@ -40,7 +40,8 @@
             </a>
         </nav>
         <section class="acodificar">
-            <textarea class="acodificar__text" name="acodificar-text" id="acodificar-text" placeholder="Ingrese algún texto ..."></textarea>
+            <textarea class="acodificar__text" name="acodificarText" id="acodificarText" placeholder="Ingrese algún texto ..."></textarea>
+            <i class="fa-solid fa-xmark" id="reiniciar-Textos"></i>
             <span class="acodificar__advertencia">
                 <i class="fa-solid fa-triangle-exclamation"></i> Los acentos se eliminarán. 
             </span>
@@ -54,6 +55,7 @@
         </section>
         <section class="codificado">
             <textarea class="codificado__text" name="codificado-text" id="codificado-text" placeholder="Aquí aparecerá el texto codificado..." readonly></textarea>
+            <span class="invisible" id="msj_copiar">Texto copiado.</span>
             <button class="boton__general btn__Copiar">Copiar</button>
             </div>
         </section>

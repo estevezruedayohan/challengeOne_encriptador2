@@ -1,7 +1,7 @@
 .acodificar__advertencia{
     margin: auto auto 8px 0;
 }
-.acodificar__advertencia:nth-child(3){
+.acodificar__advertencia:nth-child(4){
     margin: 8px auto 8px 0;
 }
 
@@ -9,7 +9,7 @@
     .acodificar__advertencia{
         margin: 8px 0 0;
     }
-    .acodificar__advertencia:nth-child(3){
+    .acodificar__advertencia:nth-child(4){
         margin: 8px 0 0;
     }
 }

@@ -6,6 +6,14 @@
     width: 50%;
 }
 
+#reiniciar-Textos{
+    align-self: flex-end;
+    border: 1px solid var(--lighgray);
+    border-radius: 16px;
+    padding: 4px 8px;
+    position: absolute;
+}
+
 @media screen and (max-width:480px){
     .acodificar{
         margin: 0;

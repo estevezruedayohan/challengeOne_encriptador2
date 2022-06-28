@@ -1,0 +1,24 @@
+span#msj_copiar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    font-size: var(--lg);
+    padding: 4px;
+    border: none;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    span#msj_copiar{
+        font-size: var(--md);
+        padding: 8px;
+        margin-bottom: 8px;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 480px) {
+    span#msj_copiar{
+        font-size: var(--md);
+        padding: 8px;
+    }
+}

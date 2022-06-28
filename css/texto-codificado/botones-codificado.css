@@ -3,3 +3,8 @@
     color: var(--darkblue);
     margin: auto 0 0 0;
 }
+
+.btn__Copiar:hover{
+    background-color: var(--lighgray);
+    color: var(--white);
+}
