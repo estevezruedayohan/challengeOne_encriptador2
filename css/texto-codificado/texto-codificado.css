@@ -6,4 +6,5 @@
     font-family: var(--font-contenido);
     font-size: var(--md);
     padding: 8px;
+    resize: none;
 }
