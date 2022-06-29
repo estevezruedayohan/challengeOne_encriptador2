@@ -10,7 +10,8 @@
 
 @media screen and (max-width:480px) {
     .codificado{
-        height: calc(40% - 32px);
+        /* height: calc(40% - 32px); */
+        height: auto;
         margin: 8px;
         padding: 8px;
         width: calc(100% - 32px);
@@ -19,7 +20,8 @@
 
 @media screen and (min-width:540px) and (max-width: 1024px) {
     .codificado{
-        height: calc(30% - 16px);
+        /* height: calc(30% - 16px); */
+        height: auto;
         margin: 32px auto 0;
         width: 80%;
     }

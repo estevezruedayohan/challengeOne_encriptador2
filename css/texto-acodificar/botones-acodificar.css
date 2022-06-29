@@ -20,3 +20,19 @@
     background-color: var(--lighgray);
     color: var(--white);
 }
+
+@media screen and (max-width: 480px) {
+    .btn__encriptar{
+        margin: 4px;
+        width: 100%;
+    }
+
+    .btn__desencriptar{
+        margin: 4px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1024px) {
+    
+}
