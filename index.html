@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/texto-acodificar/caja-acodificar.css">
     <link rel="stylesheet" href="css/texto-acodificar/caja-botones-acodificar.css">
     <link rel="stylesheet" href="css/texto-acodificar/texto-acodificar.css">
+    <link rel="stylesheet" href="css/texto-codificado/aviso-codificado.css">
     <link rel="stylesheet" href="css/texto-codificado/msg-copiado.css">
     <link rel="stylesheet" href="css/texto-codificado/botones-codificado.css">
     <link rel="stylesheet" href="css/texto-codificado/caja-codificado.css">
@@ -54,9 +55,12 @@
             </div>
         </section>
         <section class="codificado">
-            <textarea class="codificado__text" name="codificado-text" id="codificado-text" placeholder="Aquí aparecerá el texto codificado..." readonly></textarea>
+            <img class="aviso__codificado invisible visible" src="img/aviso.png" alt="busqueda">
+            <textarea class="codificado__text invisible" name="codificado-text" id="codificado-text" placeholder="Aquí aparecerá el texto codificado..." readonly></textarea>
+            <span class="titulo1-codificado invisible visible">Ningún mensaje fue encontrado</span>
+            <span class="titulo2-codificado invisible visible">Ingresa el texto que desees encriptar o desencriptar.</span>
             <span class="invisible" id="msj_copiar">Texto copiado.</span>
-            <button class="boton__general btn__Copiar">Copiar</button>
+            <button class="boton__general btn__Copiar invisible">Copiar</button>
             </div>
         </section>
     </main>
