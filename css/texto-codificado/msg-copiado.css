@@ -9,14 +9,14 @@ span#msj_copiar{
 
 @media screen and (max-width: 480px) {
     span#msj_copiar{
-        font-size: var(--md);
+        font-size: var(--sd);
         padding: 8px;
         margin-bottom: 8px;
         text-align: right;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
     span#msj_copiar{
         font-size: var(--md);
         padding: 8px;

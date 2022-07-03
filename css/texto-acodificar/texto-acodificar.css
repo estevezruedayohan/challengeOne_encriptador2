@@ -17,8 +17,8 @@
         font-size: var(--lg);
     }
 }
-
-@media screen and (min-width:540px) and (max-width: 1024px){
+/* (min-width:481px) and  */
+@media screen and (max-width: 1024px){
     .acodificar__text{
         height: 240px;
         font-size: var(--xlg);

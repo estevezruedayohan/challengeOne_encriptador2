@@ -12,7 +12,7 @@
 }
 
 .titulo2-codificado{
-    font-size: var(--md);
+    font-size: var(--lg);
     line-height: 1.2;
     margin-top: 24px;
     text-align: center;
@@ -24,10 +24,10 @@
     }
 
     .titulo1-codificado{
-        font-size: var(--lg);
+        font-size: var(--md);
         font-weight: bold;
         line-height: 0.8;
-        margin-top: 12px;
+        margin-top: 12px auto 0;
     }
     
     .titulo2-codificado{
@@ -41,7 +41,7 @@
 
 }
 
-@media screen and (min-width: 520px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
     .aviso__codificado{
         display: none;
     }
@@ -49,14 +49,14 @@
     .titulo1-codificado{
         font-size: var(--lg);
         font-weight: bold;
-        margin: 16px 0 0 24px;
+        margin: 16px auto 0;
         width: 100%;
     }
     
     .titulo2-codificado{
         font-size: var(--md);
         line-height: 1.2;
-        margin: 12px 0 12px 24px;
+        margin: 12px 0 12px;
         width: 100%;
     }
 
