@@ -13,18 +13,21 @@ var tit2_codificado = document.querySelector(".titulo2-codificado");
 var msj_copiado = document.querySelector("#msj_copiar");
 var btn_copiar = document.querySelector(".btn__Copiar");
 
+function habilitarSeccion(){
+    img_codificado.classList.remove("visible");
+    text_encriptado.classList.remove("invisible");
+    tit1_codificado.classList.remove("visible");
+    tit2_codificado.classList.remove("visible");
+    btn_copiar.classList.remove("invisible");    
+}
 
 // evento asignado al click del botón encriptar
 btn_encriptar.addEventListener("click", function(){
+    habilitarSeccion();
     var texto = text_aencriptar.value;
     var esValido = verificarTexto(texto);
     
     if(esValido){
-        img_codificado.classList.remove("visible");
-        text_encriptado.classList.remove("invisible");
-        tit1_codificado.classList.remove("visible");
-        tit2_codificado.classList.remove("visible");
-        btn_copiar.classList.remove("invisible");
         var textoEncriptado = encriptarTexto(texto);
         text_encriptado.textContent = textoEncriptado;
     }else{
@@ -55,10 +58,10 @@ btn_copiar.addEventListener("click", function (){
 btn_desencriptar.addEventListener("click", function(){
     var texto = text_aencriptar.value;
     var esValido = verificarTexto(texto);
-
     if(esValido){
+        habilitarSeccion();
         var textoDesencriptado = desencriptarTexto(texto);
-        text_encriptado.textContent = textoDesencriptado;
+        text_encriptado.value = textoDesencriptado;
     }else{
         alertify.alert('Texto Inválido', 'Nada a desencriptar!');
     }
